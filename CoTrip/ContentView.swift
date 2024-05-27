@@ -2,20 +2,51 @@
 //  ContentView.swift
 //  CoTrip
 //
-//  Created by Kenny DUONG on 20/06/2023.
+//  Created by Kenny DUONG on 21/06/2023.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    @State private var firstTime: Bool = true
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        
+        if firstTime {
+            OnBoarding(firstTime: $firstTime)
+        } else {
+            TabView {
+                Recherche()
+                    .tabItem {
+                        Image(systemName: "magnifyingglass")
+                        Text("Search")
+                    }
+                
+                Favoris()
+                    .tabItem {
+                        Image(systemName: "heart")
+                        Text("Favoris")
+                    }
+                
+                Boarding()
+                    .tabItem {
+                        Image(systemName: "suitcase")
+                        Text("Voyages")
+                    }
+                
+                DashboardView()
+                    .tabItem {
+                        Image(systemName: "ellipses.bubble")
+                        Text("Chat")
+                    }
+                
+                ProfileTab()
+                    .tabItem {
+                        Image(systemName: "person.fill")
+                        Text("Profil")
+                    }
+            }
         }
-        .padding()
     }
 }
 
