@@ -1,9 +1,9 @@
 # CoTrip - Trouvez vos compagnons de voyage 🌍✈️
 
 <p align="center">
-  <img src="./assets/onBoarding1.png" width="200" alt="CoTrip Home"/>
-  <img src="./assets/onBoarding2.png" width="200" alt="CoTrip Home"/>
-  <img src="./assets/onBoarding3.png" width="200" alt="CoTrip Home"/>
+  <img src="./assets/onBoarding1.png" width="250" alt="CoTrip Home"/>
+  <img src="./assets/onBoarding2.png" width="250" alt="CoTrip Home"/>
+  <img src="./assets/onBoarding3.png" width="250" alt="CoTrip Home"/>
 </p>
 
 CoTrip est une application iOS moderne développée en SwiftUI qui permet aux voyageurs de se connecter et de partager leurs expériences de voyage. Que ce soit pour partager un trajet, diviser les coûts d'hébergement ou trouver des partenaires pour des activités de groupe, CoTrip facilite la mise en relation des voyageurs partageant les mêmes centres d'intérêt.
@@ -20,10 +20,12 @@ CoTrip est une application iOS moderne développée en SwiftUI qui permet aux vo
 ## 📱 Captures d'écran
 
 <p align="center">
-  <img src="./assets/screenshots/home.png" width="200" alt="Page d'accueil"/>
-  <img src="./assets/screenshots/search.png" width="200" alt="Recherche"/>
-  <img src="./assets/screenshots/chat.png" width="200" alt="Messagerie"/>
-  <img src="./assets/screenshots/profile.png" width="200" alt="Profil"/>
+  <img src="./assets/homeView.png" width="250" alt="Page d'accueil"/>
+  <img src="./assets/searchView.png" width="250" alt="Recherche"/>
+</p>
+<p align="center">
+  <img src="./assets/researchView.png" width="250" alt="Recherche"/>
+  <img src="./assets/resultView.png" width="250" alt="resultat"/>
 </p>
 
 ## 🛠 Technologies utilisées
