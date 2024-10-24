@@ -27,6 +27,19 @@ CoTrip est une application iOS moderne développée en SwiftUI qui permet aux vo
   <img src="./assets/researchView.png" width="250" alt="Recherche"/>
   <img src="./assets/resultView.png" width="250" alt="resultat"/>
 </p>
+<p align="center">
+  <img src="./assets/dashboard.png" width="250" alt="Tableau de bord"/>
+  <img src="./assets/favView.png" width="250" alt="Favoris"/>
+</p>
+<p align="center">
+  <img src="./assets/chatList.png" width="250" alt="Chat List"/>
+  <img src="./assets/chatView.png" width="250" alt="Chat"/>
+</p>
+<p align="center">
+  <img src="./assets/profile1.png" width="250" alt="Profile"/>
+  <img src="./assets/profile2.png" width="250" alt="Avis"/>
+</p>
+
 
 ## 🛠 Technologies utilisées
 
